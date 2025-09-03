@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # This program is based on the following program.
 # https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/ch04/two_layer_net.py
 # Copyright (c) 2016 Koki Saitoh
@@ -8,7 +6,7 @@
 
 # 必要なライブラリをインポート
 import numpy as np
-from functions import sigmoid, sigmoid_grad, softmax, cross_entropy_error
+from gakusyu_library.functions import sigmoid, sigmoid_grad, softmax, cross_entropy_error
 
 
 class TwoLayerNetwork:
